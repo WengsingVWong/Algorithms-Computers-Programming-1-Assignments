@@ -1,5 +1,5 @@
 # Algorithms-Computers-Programming-1-Assignments
-A repository containing programming assignments from Algorithms, Computers, and Programming I (MTH 3300).
+Programming assignments from my MTH 3300 (Algorithms, Computers, and Programming I) class at Baruch College
 
 On March 28, 2020, I uploaded Assignments 2 and 3. 
 
