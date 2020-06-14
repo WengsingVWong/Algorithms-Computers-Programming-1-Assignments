@@ -1,0 +1,5 @@
+Assignment 3 consists of the following three files:
+- quadratic.py → Solves a given quadratic equation using the quadratic formula and displays the solution(s), including complex solutions.
+- tubwub.py → Determines whether the user should purchase tickets to a New York City event based on certain conditions, and if so, calculates the maximum number of tickets he/she can buy without exceeding $150.
+  - In the assignment, this code is for a fictional company called TubWub, specifically for an app which will help people locate cheap admission tickets to nearby events.
+- splitting.py → Asks the user for the X- and Y-coordinates of 4 points on a 2-D plane as well as the slope (m) and Y-intercept (b) of a line, and determines if the line splits the points evenly—that is, whether two points lie above the line and two points lie below the line.
