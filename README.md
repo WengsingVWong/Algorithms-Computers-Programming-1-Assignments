@@ -10,3 +10,7 @@ Assignment 3:
 - quadratic.py
 - tubwub.py
 - splitting.py
+
+Assignment 5:
+- trapezoid.py
+- escape.py
