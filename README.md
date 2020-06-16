@@ -14,3 +14,21 @@ Assignment 3:
 Assignment 5:
 - trapezoid.py
 - escape.py
+
+Assignment 6:
+- bricks.py
+- yield.py
+
+Assignment 8:
+- goldbach.py
+- relatives.py
+
+Assignment 9:
+- student.py
+- five.py
+
+Assignment 10:
+- morse.py
+- movies.py
+
+<b>Note: Assignments 1, 4, and 7 did not require me to write Python programs, so they are not included in this repository.</b>
