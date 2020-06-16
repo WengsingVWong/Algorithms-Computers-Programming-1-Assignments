@@ -1,0 +1,24 @@
+Assignment 9 consists of the following two files:
+- student.py → Displays the names and averages of all students with passing averages by defining and using a class called <b>Student</b>.
+    - The class has two attributes:
+        - ._name → Stores the name of the Student.
+        - ._scores → Stores a list of the Student's test scores.
+    - The class also has four methods:
+        - Constructor → Accepts a string and a list of floats, and sets the values of the attribute variables.
+        - .average() → Accepts no outside arguments and returns the average test score (or 0 if there are no scoers).
+        - .display() → Accepts no outside arguments and returns nothing, but prints out the name and average of a Student.
+        - .passes() → Accepts no outside arguments and returns True if the Student has a passing test average and False otherwise.
+- five.py → Solves (or attempts to solve) 5 different Five games by defining and using a class called <b>Five</b> with randomly generated moves.
+    - A Five game is a simpler version of the classic "Fifteen" game, consisting of a 2 x 3 grid with 5 tiles (numbered 1 to 5) and 1 space.
+    - The class has two attributes:
+        - ._board → Stores a 2 x 3 list of integers (0-5), where the 0 represents the empty space.
+        - ._empty → Stores a list of 2 integers representing the 1st and 2nd indices of the empty space's position.
+    - The class has eight methods:
+        - Constructor → Accepts a 2-D list of integers and creates a Five game from it.
+        - .display() → Accepts no outside arguments and returns nothing, but prints out a grid representation of the board, with an * representing the empty space.
+        - .swap() → Accepts 4 outside arguments, where the first two are the indices of one tile's position and the second two are the indices of another tile's position, and swaps the positions of the two tiles. Returns nothing.
+        - .left() → Accepts no outside arguments and checks if the empty space can be moved one square to the left. If so, the empty space is swapped with the tile one square to the left, self._empty is updated to reflect the new position of the empty space, and returns True. If the move is impossible, it returns False.
+        - .right → Works similarly to .left(), except it checks if the empty space can be moved one square to the right and swaps the empty space with the tile one square to the right.
+        - .up() → Works similarly to .left(), except it checks if the empty space can be moved to the square above and swaps the empty space with the tile in the square above.
+        - .down() → Works similarly to .left(), except it checks if the empty space can be moved to the square below and swaps the empty space with the tile in the square below.
+        - .wins() → Accepts no outside arguments, returns True if the Five game has been solved, and returns False otherwise.
