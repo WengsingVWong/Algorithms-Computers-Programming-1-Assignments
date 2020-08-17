@@ -1,6 +1,8 @@
 # Algorithms-Computers-Programming-1-Assignments
 Programming assignments from my MTH 3300 (Algorithms, Computers, and Programming I) class at Baruch College
 
+*All assignments were written in Spyder using Python 3
+
 Assignment 2:
 - population.py
 - triangle.py
